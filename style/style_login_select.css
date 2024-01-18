@@ -1,0 +1,10 @@
+.login_select_button button{
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    background-color: #9b84c2;
+    outline: none;
+    color: white;
+}

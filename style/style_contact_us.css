@@ -1,0 +1,67 @@
+
+/*Contact Us page*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ebe7f1;
+	background-image: url(contactUs.jpg);
+	background-size: cover;
+}
+
+.contact-form {
+	width: auto;
+	max-width: 600px;
+	;
+	background: lightgray;
+	position: relative;
+	top: 35%;
+	left: 35%;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+	.contact-form h1 {
+		margin-top: 0;
+		font-weight: 800;
+	}
+
+.txtb {
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+
+	.txtb label {
+		display: block;
+		text-align: left;
+		color: #333;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+	.txtb input, .txtb textarea {
+		width: 100%;
+		border: none;
+		background: none;
+		outline: none;
+		font-size: 18px;
+		margin-top: 6px;
+	}
+
+.btn {
+	background-color: #63478f;
+	height: 100px;
+	width: 520px;
+	outline: none;
+	border: none;
+	font-size: 30px;
+	font-weight: 500;
+	border-radius: 6px;
+	letter-spacing: 1px;
+}

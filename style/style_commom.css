@@ -1,0 +1,53 @@
+.topjobs_box1_sub{
+    width: 1000px;
+    height: 800px;
+    background: #ebe7f1;
+    border-radius: 15px;
+    margin-right: 200px;
+}
+.topjobs_box1{
+    margin-left: 25%;
+    
+}
+.topjobs_box1_sub h3{
+    padding: 7px;
+    width: 1000px;
+    height: 40px;
+    background-color: #9b84c2;
+    border-radius: 10px;
+}
+.topjobs_box1_sub h4{
+    margin: 18px;
+}
+
+.button_large{
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 150px;
+    border-width: 0ch;
+}
+.top_wind_mini_bt{
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 20px;
+}
+.top_wind_mini_bt{
+    background-color:#63478f ;
+}
+.top_wind_mini_bt a{
+    text-decoration: none;
+    color: white;
+}
+.topjob_main_margin{
+    padding-right: 0%;
+    overflow-y: scroll;
+    height: 800px;
+}
+.button_large :hover{
+    background-color: #9b84c2;
+}
+.topjobs_box1_sub p{
+    margin: 20px;
+    text-align: justify;
+}

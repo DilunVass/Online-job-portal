@@ -1,0 +1,388 @@
+/*for all*/
+*{
+	margin:0;
+    padding:0;
+	box-sizing: border-box;
+}
+/*header styles*/
+.h_col{
+	float:left;
+	width: 33.33%;
+	padding: 7px;
+	height: 100px;
+	margin-left: auto;
+}
+
+.h_row{
+	max-width: 100%;
+    margin:auto;
+}
+
+.header_s{
+	background-color: #63478f;
+	padding: 0px 50px 70px ;
+	margin-bottom: 20px;
+}
+
+.search{
+	position: absolute;
+	left: 40%;
+	padding: 10px 50px 0px 0px;
+}
+input[type="text"]{
+	width: 370px;
+	height: 30px;
+	padding: 0px 20px;
+	border-radius:15px 15px 15px 15px;
+	border: none;
+	outline: none;
+}
+
+.h_buttons{
+	padding: 10px 50px 0px 160px;
+}
+
+.h_buttons button{
+	position: relative;
+	width: 60px;
+	height: 30px;
+	border-radius:15px 15px 15px 15px;
+	border: none;
+	outline: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: #63478f;
+}
+.h_buttons button a{
+	text-decoration: none;
+	color: #63478f;
+}
+
+
+
+/*Form Styles*/
+body{
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.title1{
+	margin-left: 480px;
+	margin-top: -10px;
+	font-size: 60px;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 1.5px;
+	color: #fff;
+	text-shadow: 3px 4px black;
+}
+
+.image1{
+	margin-left: 820px;
+	margin-top: -50px;
+	max-width: 700px;
+	max-height: 350px;
+	border-radius: 3px;
+	box-shadow: 3px 5px #63478f;
+}
+
+.facts{
+	margin-left: 880px;
+	margin-top: 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 32px;
+	list-style-type: square;
+}
+
+.line1{
+	max-width: 280px;
+	max-height: 10px;
+	margin-left: 510px;
+	margin-top: -280px;
+	transform: rotate(90deg);
+}
+
+.line2{
+	max-width: 155px;
+	max-height: 20px;
+	margin-left: 650px;
+	margin-top: 138px;
+}
+
+.line3{
+	max-width: 80px;
+	max-height: 10px;
+	margin-left: 1370px;
+	margin-top: -390px;
+}
+
+.line4{
+	margin-top: 67px;
+	max-width: 1000px;
+	margin-left: 1380px;
+	transform: rotate(90deg);
+}
+
+.line5{
+	margin-top: 130px;
+	max-width: 1000px;
+	margin-left: 1380px;
+	transform: rotate(90deg);
+}
+
+.line6{
+	max-width: 35px;
+	max-height: 10px;
+	margin-left: 1415px;
+	margin-top: 67px;
+}
+
+.title{
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serifS;
+	text-decoration: solid;
+}
+
+.details{
+	margin-left: 20px;
+	font-size: 22px;
+	text-decoration: solid;
+}
+
+.user-details{
+	font-family: "Georgia";
+	justify-content: center;
+}
+
+.boxes{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 30px;
+	height: 35px;
+	width: 315px;
+	border-radius: 4px;
+	border-width: 1px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	border-bottom-width: 3px;
+	border-color: #9b59b6;
+}
+
+.boxes1{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 30px;
+	width: 315px;
+	border-radius: 4px;
+	border-width: 1px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	resize: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	border-bottom-width: 3px;
+	border-color: #9b59b6;
+}
+
+.boxes2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-left: 30px;
+	height: 25px;
+	width: 315px;
+	border-radius: 4px;
+	border-width: 1px;
+	margin-top: 8px;
+	margin-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	border-bottom-width: 3px;
+	border-color: #9b59b6;
+}
+
+.container{
+	font-size: 20px;
+	max-width: 400px;
+	width: 100%;
+	padding-left: 10px;
+	background: #fff;
+	margin-top: -310px;
+	margin-left: 20px;
+	border-radius: 5px;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.container .title{
+	font-weight: 550;
+	position: relative;
+}
+
+.container .title::before{
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 50px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	left: 0;
+	bottom: 0;
+	margin-bottom: -5px;
+}
+
+form .button{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+form .button input{
+	height: 30px;
+	margin-left: 82px;
+	padding-left: 50px;
+	padding-right: 50px;
+	outline: none;
+	color: #fff;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	font-weight: 700;
+	font-size: 18px;
+	border: none;
+	letter-spacing: 1px;
+	border-radius: 3px;
+}
+
+form .button input:hover{
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.company-heading{
+	margin-left: 800px;
+}
+
+/*footer styles*/
+.f_col{
+	float:left;
+	width: 25%;
+	padding: 10px;
+	height: 100px;
+	margin-left: auto;
+}
+
+.f_col h3{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	color: white;
+}
+.f_col h5 a,h5{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 10px 0px 10px;
+}
+
+.f_row1{
+	max-width: 100%;
+    margin:auto;
+}
+.footer_s{
+	background-color: #63478f;
+	padding: 0px 50px 220px ;
+	margin-top: 20px;
+}
+.f_col h5 a:hover{
+	color: white;
+	padding-left: 8px;
+	transition: all 0.3s ease;
+}
+.f_col{
+	padding: 20px 20px 20px 20px;
+}
+
+/*home page content*/
+/*main navigation bar*/
+.nav_main{
+	display: inline-flex;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 0%;
+}
+.nav_points{
+	position: -ms-page;
+	width: 80px;
+	height: 30px;
+	border-radius:0px 15px 0px 15px;
+	border: none;
+	outline: none;
+	background: #63478f;
+}
+.a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	color: white;
+	font-size: 14px;
+}
+
+.nav_points a:hover{
+	background-color: #372750;
+}
+.nav_p a{
+	display:block;
+	color: #63478f;
+	text-align: center;
+	padding-left: 17px;
+	float:left;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	color: #63478f;
+}
+.nav_p{
+	width: 140px;
+	height: 40px;
+	border-radius:15px 15px 15px 15px;
+	border: none;
+	outline: none;
+	background-color: white;
+	font-size: 15px;
+}
+
+.nav_list :hover{
+	color: #372750;
+}
+/*social media icons*/
+
+.fa{
+	height: 40px;
+	width: 40px;
+	padding: 13px;
+	text-decoration: none;
+	margin: 10px 4px;
+	font-size: 30px;
+	border-radius: 50%;
+	text-align: center;
+}
+.fa :hover{
+	opacity: 0.5;
+}
+
+.fa-facebook{
+	background: #63478f;
+	color: white;
+}
+.fa-twitter{
+	background: #63478f;
+	color: white;
+}
+.fa-google{
+	background: #63478f;
+	color: white;
+}
+.fa-instagram{
+	background: #63478f;
+	color: white;
+}
